@@ -202,6 +202,18 @@ img {
 
     .container {
         max-width: 768px;
-        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .body {
+        max-width: 1160px;
+        width: 100%
+    }
+
+    .container {
+        max-width: 1160;
+        width: 100%;
     }
 }
